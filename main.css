@@ -26,7 +26,7 @@ a {
     font-family: Sans-serif;
 }
 body{
-	max-width: 1080px;
+	max-width: 100%;
 }
 .menu {
   	width: 100%;
