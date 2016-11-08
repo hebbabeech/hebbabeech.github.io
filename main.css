@@ -32,3 +32,10 @@ body{
   	width: 100%;
   	text-align: center;
 }
+h1{
+	font-family: Sans-serif;
+
+}
+.makered {
+	color: #9dfbc2;
+}
