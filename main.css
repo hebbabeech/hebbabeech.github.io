@@ -2,12 +2,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    max-width: 1080px;
-}
-.active {
-    background-color: white;
-    color: #535b59;
-    font-family: Sans-serif;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: yellow;
 }
 li {
     display: inline;
@@ -18,12 +15,18 @@ li {
 }
 a {
     display: block;
-    padding: 8px;
-    background-color: #9dfbc2;
+    background-color: yellow;
     color: #535b59;
     min-width: 100%;
     max-width: 100px;
     font-family: Sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: navy;
+    padding: 14px 16px;
 }
 body{
 	max-width: 100%;
@@ -39,5 +42,10 @@ h1{
 
 }
 .makered {
-	color: #9dfbc2;
+	color: blue;
+}
+.header {
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
