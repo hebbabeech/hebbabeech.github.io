@@ -1,10 +1,13 @@
+style {
+    background-color: #FFD4FF;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     max-width: 100%;
     overflow: hidden;
-    background-color: yellow;
+    background-color: purple;
 }
 li {
     display: inline;
@@ -15,13 +18,13 @@ li {
 }
 a {
     display: block;
-    background-color: yellow;
+    background-color: #FFAAD4;
     color: #535b59;
     min-width: 100%;
     max-width: 100px;
     font-family: Sans-serif;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
 }
 li a:hover {
@@ -52,7 +55,4 @@ h1{
 body {
 	font-family: sans-serif;
 	color: #535b59;
-}
-.class='col-md-4' {
-    color: : pink;
 }
