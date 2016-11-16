@@ -4,7 +4,7 @@ ul {
     padding: 0;
     max-width: 100%;
     overflow: hidden;
-    background-color: purple;
+    background-color: #FFFFAA;
 }
 li {
     display: inline;
@@ -53,8 +53,11 @@ body {
 	font-family: sans-serif;
 	color: #535b59;
 }
-.jumbotron {
+.skin {
     background-image: url('image/Background.jpeg');
     background-size:cover;
     background-attachment:fixed;
+}
+.contact {
+    text-align: left;
 }
