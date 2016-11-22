@@ -8,7 +8,7 @@ ul {
 }
 li {
     display: inline;
-    font-family: Sans-serif; 
+    font-family: Georgia; 
     float: left;
     text-align: center;
     font-size: 15px;
@@ -19,7 +19,7 @@ a {
     color: #535b59;
     min-width: 100%;
     max-width: 100px;
-    font-family: Sans-serif;
+    font-family: Georgia;
     text-align: center;
     padding: 20px 20px;
     text-decoration: none;
@@ -31,12 +31,16 @@ li a:hover {
 body{
 	max-width: 100%;
 }
+.container {
+    color: black;
+    font-style: bold;
+}
 .menu {
   	width: 100%;
   	text-align: center;
 }
 h1{
-	font-family: Sans-serif;
+	font-family: Georgia;
 	text-align: center;
 	color: #535b59;
 
@@ -50,8 +54,9 @@ h1{
     margin-right: auto 
 }
 body {
-	font-family: sans-serif;
-	color: #535b59;
+	font-family: Georgia;
+	color: black;
+    font-style: bold;
 }
 .skin {
     background-image: url('image/Background.jpeg');
@@ -60,4 +65,24 @@ body {
 }
 .contact {
     text-align: left;
+}
+#social-buttons button{
+    color:white;
+}
+.btn-twitter{
+    background-color:#00acee;
+    border-color:#009ad5;
+}
+.btn-facebook{
+    background-color:#4868ac;
+    border-color:#314776;
+}
+.btn-pinterest{
+    background-color:#b62f26;
+    border-color:#b62f26;
+}
+.social-buttons {
+text-align: right;
+display: right;
+
 }
