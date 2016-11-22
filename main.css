@@ -65,9 +65,11 @@ body {
 }
 .contact {
     text-align: left;
+
 }
 #social-buttons button{
-    color:white;
+    color: white;
+    float: right;
 }
 .btn-twitter{
     background-color:#00acee;
@@ -82,7 +84,20 @@ body {
     border-color:#b62f26;
 }
 .social-buttons {
-text-align: right;
-display: right;
+    text-align: right;
+    display: right;
+    align-self: right;
 
+}
+#contact {
+    display: block;
+    margin: auto;
+    width: 60%;
+    font-size: 20px;
+}
+label {
+    font-size: 40px;
+}
+table {
+    font-size: 16px;
 }
